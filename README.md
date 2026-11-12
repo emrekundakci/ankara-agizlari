@@ -6,9 +6,11 @@ Bu depo uygulamanın indirme sayfasını ve kurulum belgelerini içerir. Uygulam
 
 ## Mac uygulamasını indirme
 
-[İndirmeler ve deneme sürümleri](https://github.com/emrekundakci/ankara-agizlari/releases)
+**[Mac uygulamasını indir — DMG, yaklaşık 514 MB](https://github.com/emrekundakci/ankara-agizlari/releases/download/v0.8.1-beta.1/AnkaraAgizlari-0.8.1-AppleSilicon-macOS14.dmg)**
 
-Sürümün **Assets** bölümünden `AnkaraAgizlari-0.8.1-AppleSilicon-macOS14.dmg` dosyasını indirin. Dosya görünmüyorsa sürüm yayını henüz tamamlanmamıştır.
+[0.8.1 deneme sürümü ve kurulum dosyaları](https://github.com/emrekundakci/ankara-agizlari/releases/tag/v0.8.1-beta.1) · [Tüm sürümler](https://github.com/emrekundakci/ankara-agizlari/releases)
+
+Sürüm sayfasının **Assets** bölümünde DMG, `KURULUM.txt` ve `SHA256.txt` dosyaları bulunur.
 
 GitHub’ın otomatik oluşturduğu **Source code (zip)** ve **Source code (tar.gz)** dosyaları bu belge deposunun kopyalarıdır; Mac uygulaması değildir.
 
