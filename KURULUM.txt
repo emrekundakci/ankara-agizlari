@@ -1,0 +1,117 @@
+ANKARA AĞIZLARI 0.8.1 — KURULUM VE İLK ÇALIŞMA
+12 Kasım 2026
+
+Bu paket Apple M serisi MacBook içindir: M1, M2 ve sonraki M serisi.
+macOS 14 veya üzeri gerekir. Intel Mac için hazırlanmadı.
+
+ÜÇ ADIMDA KURULUM
+
+1. AnkaraAgizlari-0.8.1-AppleSilicon-macOS14.dmg dosyasını tamamen indirin
+   ve çift tıklayın.
+2. Açılan paketin içindeki KUR.command dosyasına çift tıklayın.
+   Terminal penceresi açılması normaldir.
+3. Kurulum açıklamasını okuyup onaylayın. Ankara Ağızları kendi
+   Uygulamalar klasörünüze (~/Applications) kurulur ve açılır.
+   İlk açılış biraz sürebilir. Kurulum mevcut bir uygulama bulursa onu
+   yedekleme açıklamasını gösterir; kaynak seslerinize veya çalışma
+   klasörlerinize işlem yapmaz.
+
+Kurulum tamamlanınca DMG’yi Finder’dan çıkarabilirsiniz. Sonraki açılışlarda
+kurulan Ankara Ağızları uygulamasını kullanın; DMG’yi yeniden açmak gerekmez.
+
+KUR.COMMAND AÇILMIYORSA / “YİNE DE AÇ” GÖRÜNMÜYORSA
+
+DMG açık kalsın. Command (⌘) + Boşluk tuşlarına basın, Terminal yazıp açın.
+Aşağıdaki satırın tamamını kopyalayıp Terminal’e yapıştırın ve Return / Enter
+tuşuna basın. Ardından kurulum açıklamasını okuyup onaylayın:
+
+/bin/bash "/Volumes/AnkaraAgizlari081/KUR.command"
+
+“No such file or directory” yazarsa DMG kapanmış olabilir. Paketi yeniden
+çift tıklayarak açın ve komutu tekrar uygulayın.
+
+Bu araştırma paketi Apple Developer ID ile imzalanmış veya Apple noter
+onayından geçmiş değildir; macOS açılış uyarısı gösterebilir. Kurulum
+yardımcısı, onayınızla yalnız bu paketten oluşturduğu uygulama kopyasının
+indirme engelini kaldırarak ilk açılışı hazırlar. Mac’in genel güvenlik
+ayarlarını değiştirmez. Bu adımı yalnız proje yürütücüsünden aldığınız
+bu paket için kullanın.
+
+Kurum tarafından yönetilen Mac’te uygulama çalıştırma kısıtlaması varsa
+kurumun teknik desteğine başvurun. “Bilgisayarınıza zarar verecek” gibi bir
+uyarı görürseniz devam etmeyin; uyarının tam metnini proje yürütücüsüne
+iletin. Hasarlı/eksik indirme uyarısında paketi yeniden indirin.
+
+Apple’ın açıklaması: https://support.apple.com/102445
+
+İLK ÇALIŞMANIZ
+
+1. Ses / video seç… düğmesiyle kaydınızı seçin. Ekibin belirlediği kayıt
+   kodunu yazın. Kayıt kodu başka kayıtlardan farklı olsun.
+2. Kayıt bilgileri bölümüne ilçe, köy ve bildiğiniz konuşur bilgilerini
+   yazın. Konuşurlar → Konuşur ekle ile K3, K4 ve devamını ekleyebilirsiniz.
+   Kaydet ve kapat ile bütün konuşur bilgilerini saklayın.
+3. Sesi böl ve yazıya aktar düğmesine basın. İlk çözümlemede yaklaşık
+   3,08 GB model indirilir; bu kez internet gerekir. İndirme ve ilk
+   çözümleme zaman alabilir. Model sonraki kayıtlar için bu Mac’te saklanır.
+   Kaydınızın sesi dışarıya yüklenmez; ses bu Mac’te işlenir.
+4. Soldan bir segment seçip dinleyin. Ağız çalışma metni ile standart metni
+   ayrı düzenleyin. Konuşur kutusundan bu segmentte konuşan tek kişiyi
+   seçin. K1/K2 veya diğer kişiler otomatik tanınmış kabul edilmez;
+   seçimi siz yaparsınız. İki kişinin olduğu kısmı bölerek kontrol edin
+   veya çalışma listesinden çıkarın.
+5. Düzeltmeleri kaydet veya ⌘S ile düzenli kaydedin.
+6. Kontroller bitince Çalışmayı bitir ve çıktıları al düğmesine basın.
+   Ortak Excel dosyası ile bütün WAV parçalarını içeren ses ZIP’ini
+   birlikte teslim edin.
+
+Otomatik metin ön dökümdür; dinleyerek düzeltmek gerekir. Standart metin
+başlangıçta boştur; ağız metnini otomatik değiştirmez. Kaynak ses/video
+dosyanız, seçilip işlenmesi nedeniyle düzenlenmez.
+
+ÇALIŞIRKEN
+
+- Duraklat / Devam et aynı dinleme yerinden sürer. Zaman çubuğu ve
+  geri/ileri düğmeleri dinleme konumunu değiştirir.
+- Segmenti böl: Sesi duraklatıp bu düğmeye basın. Bölme penceresinde
+  kaynak konumunu ve iki ses parçasını dinleyerek kontrol edin; iki
+  metinde ikinci parçanın başlayacağı yeri seçin.
+- Sağdaki çeviri yazısı paneli imlece işaret ekler. Büyük harf seçeneği
+  Ā, Ō, Ė gibi biçimleri açar.
+- Segmenti sil çalışma listesinden kaldırır. İşlemi geri al ile segment
+  düzenleme işlemleri geri alınabilir.
+- AirPods için Mac’in Ses çıkışından kulaklığı seçin. Uygulamadaki
+  Çıkışı yenile düğmesiyle ses aygıtını yenileyebilirsiniz.
+
+ÇALIŞMALAR VE YEDEK
+
+Çıktı klasörünü aç düğmesi çalışma klasörlerini gösterir.
+Çalışmaların yeri:
+~/Library/Application Support/Ankara Agizlari 0.8.1/outputs
+
+Yedek almak için ilgili çalışma klasörünün tamamını kopyalayın.
+Yalnız Excel’i veya yalnız proje.json dosyasını kopyalamak çalışma
+seslerini içermez. Uygulamada devam etmek için bu sürümün outputs
+klasöründeki proje.json kullanılır. Excel’de sonradan yapılan değişiklikler
+uygulamaya kendiliğinden geri aktarılmaz. Ekip üyelerinin çalışmaları
+otomatik eşitlenmez.
+
+SİSTEM BİLGİSİ
+
+İşlemci ve macOS sürümü:  → Bu Mac Hakkında.
+16 GB bellek ve ilk kurulum/çalışma için en az 15 GB boş alan önerilir.
+Kayıtların boyutu ayrıca alan gerektirir. 8 GB bellekli Mac’te hız ve
+büyük kayıtlarda yeterlilik doğrulanmadı.
+
+Paket macOS 14 uyumlu resmî bileşenlerle hazırlanmıştır. Fiziksel bir
+M1/macOS 14 bilgisayarda kurulum testi yapılmadı. Önce kısa bir kayıtla
+deneme yapıp sonra uzun kayda geçin.
+
+Python, FFmpeg veya Audacity kurmak; bir hesap açmak gerekmez.
+İlk model indirmesinden sonra, model bu Mac’te durduğu sürece çözümleme
+yerel çalışır. Model bilgisi ve kurulum gereksinimleri:
+https://ml-explore.github.io/mlx/build/html/install.html
+
+Bu pakette araştırma sesleri, kişisel Excel’ler veya önceden yapılmış
+çalışmalar bulunmaz. Yardım isterken macOS sürümünü, bellek miktarını
+ve hata mesajının tam metnini iletin.
